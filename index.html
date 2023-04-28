@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Share Link</title>
+</head>
+
+<body>
+    <section id="card">
+        <div class="card-container">
+
+            <div class="follow-text">
+                <p>Follow us!</p>
+            </div>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-solid fa-basketball"></i></a>
+                <a href="#"><i class="fa-brands fa-behance"></i></a>
+            </div>
+
+            <div class="copy-text">
+                <p>Or share the page</p>
+                <form>
+                    <input type="text" value="https://atalink.com" id="copy-text">
+                    <button onclick="myFunction()" class="copy-btn">Copy to clipboard</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        function myFunction() {
+            var copyText = document.getElementById("copy-text");
+            copyText.select();
+            navigator.clipboard.writeText(copyText.value);
+            alert("Copied the text: " + copyText.value);
+        }
+    </script>
+
+
+    <script src="https://kit.fontawesome.com/f0b3d42456.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #110723;
+    color: #fff;
+}
+
+#card .card-container {
+    background: #1f1438;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15rem auto;
+    height: 100%;
+    width: 450px;
+    border-radius: 10px;
+    padding: 2.5rem;
+}
+
+.social-media {
+    margin: 1rem 0;
+}
+
+#card .social-media i {
+    background: #322651;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.7rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+}
+
+#card .social-media i:hover {
+    background: #ff499e;
+    box-shadow: 0px 3px 10px 0px rgba(255, 73, 158, 1);
+}
+
+#card .copy-text p {
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+}
+
+#card input {
+    background: #110723;
+    border: none;
+    color: #fff;
+    padding: 0.6rem 1rem;
+}
+
+#card button {
+    border: none;
+    padding: 0.6rem 1rem;
+    background: #110723;
+    color: #51379b;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#card button:hover {
+    background: #ff499e;
+    color: #fff;
+}
